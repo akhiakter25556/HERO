@@ -196,7 +196,7 @@ position: relative;
   top: 50%;
     left: 50%;
 position: absolute;
-color: red;
+color: rgb(246, 244, 244);
 transform: translate(-50%,-50%);
 }
 
