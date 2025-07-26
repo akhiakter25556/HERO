@@ -232,14 +232,157 @@ width: 540px !important;
     font-size: 15px;
 }
 
-
+/* 
 .full{
 color: black;
 
 }
 .text-color{
     color: black;
+    display: flex;
+} */
+
+/* latest deals */
+
+/* latest-deals-layout css */
+.latest-deals{
+    margin-bottom: 100px;
 }
+
+.latast-deals-content {
+    text-align: center;
+}
+.latast-deals-content h3{
+    font-size: 3.1rem;
+    margin-bottom: 16px;
+   
+}
+.latast-deals-content span{
+    color: #d93f0c;
+}
+.latast-deals-content p{
+    margin-bottom: 120px;
+   
+}
+.latest-deals-layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+.left-deal{
+    display: flex;
+    flex-direction: column;
+    
+ 
+}
+.left-deal-img img{
+    border-radius: 14px;
+   
+}
+
+.left-deal-card{
+    position: relative;
+}
+.left-deal-card::before {
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    content: "";
+    background: #000000;
+    opacity: 30%;
+    border-radius: 14px;
+}
+.left-deal-card-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+.left-deal-card-content h4{
+    text-align: center;
+    color: white;
+    font-size: 1.rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+.left-deal-card-content a{
+    color: white;
+    font-weight: bold;
+}
+
+.left-deal-item{
+    position: relative;
+    margin: 20px 0px;
+}
+.left-deal-item::before {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    content: "";
+    height: 98%;
+    width: 100%;
+    background: #000;
+    opacity: 30%;
+    border-radius: 14px;
+}
+
+.left-deal-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.left-deal-content h4{
+    color: white;
+    font-size:1.1rem;
+    margin-bottom: 20px;
+}
+.left-deal-content a{
+    color: white;
+    
+}
+
+.right-deal{
+    position: relative;
+    padding-bottom: 20px;
+}
+.right-deal::before {
+    position: absolute;
+    bottom: 23px;
+    left: 0;
+    height: 95%;
+    width: 100%;
+    content: "";
+    background: #000;
+    opacity: 30%;
+    border-radius: 30px;
+}
+
+.right-deal-img img {
+    border-radius: 30px;
+}
+.right-deal-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.right-deal-content h3{
+    color: white;
+    font-size: 2.2rem;
+}
+.right-deal-content a{
+    color: white;
+    font-size: 1.7rem;
+}
+
 
 
 
