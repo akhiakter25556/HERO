@@ -54,9 +54,6 @@ nav ul {
 
 .flower {
     display: flex;
-    /* justify-content: space-between;
-left: 150px;
-margin-bottom: 30px; */
 }
 
 .fresh-flowers {
@@ -108,6 +105,114 @@ margin-bottom: 30px; */
 .cart a {
     text-decoration: none;
 }
+
+/* FLOWER */
+
+
+
+
+
+
+.flower1-text{
+width: 1140px;
+text-align: center;
+
+/* background-color: rgb(202, 155, 155); */
+padding: 16px;
+}
+.flower1-text h2{
+padding: 16px;
+color: rgb(205, 41, 41);
+font-size: 40px;
+}
+.flower1-text {
+color: rgba(88, 103, 103, 0.663);
+
+
+}
+
+
+.flower1-container{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+width: 1140px;
+padding: 20px;
+align-items: center;
+justify-content: space-between;
+column-gap: 4px;
+background-position: center;
+background-size: cover;
+translate: (1.0s);
+
+
+
+}
+
+
+.flower1{
+width: 270px;
+padding: 10px;
+color: #818181;
+
+}
+.flower1 h3{
+    text-align: center;
+ text-align: center;
+text-align: center;
+/* margin-bottom: auto; */
+}
+.flower1 p{
+text-align: center;
+color: #000000;
+}
+
+.flower1-btn{
+ text-align: center;
+width: 270px;
+height: 50px;
+ background-color: rgb(233, 90, 8);
+ color: #f6f6f6;
+}
+
+
+@media screen and (max-width:576px) {
+    .flower1-container{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .our-plants {
     display: flex;
     grid-row: ari;
